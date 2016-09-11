@@ -13,6 +13,7 @@ bower_components
 build/reports
 coverage
 test/e2e/dist
+/dashboard/static/lib
 #Android
 *.iml
 .gradle
