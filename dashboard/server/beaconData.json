@@ -1,0 +1,10 @@
+{
+  "55277": {
+    "area":"CCI Tecnologico de Monterrey",
+    "nivelPeligro": "Tranquilo" 
+  },
+  "32271": {
+    "area":"Biblioteca Tecnologico de Monterrey",
+    "nivelPeligro": "Cuidado" 
+  }
+}

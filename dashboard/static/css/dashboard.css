@@ -1,0 +1,20 @@
+.svg {
+  width: 0.7em;
+  height: 1em;
+  margin-left: 0.3em;
+  margin-top: 0.3em;
+}
+
+.bg-img:hover {
+  background-color: black !important;
+  /*background: url("http://materializecss.com/images/sample-1.jpg");
+  background-attachment: fixed;*/
+}
+.container {
+  margin-top:40px;
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}

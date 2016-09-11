@@ -1,0 +1,17 @@
+{
+  "name": "Socket-Dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard comunication with sockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Carlos Linares",
+  "license": "private",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "websocket": "^1.0.23"
+  }
+}

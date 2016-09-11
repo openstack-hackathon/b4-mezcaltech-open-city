@@ -1,0 +1,26 @@
+{
+  "name": "Socket Dashboard",
+  "description": "Dashboard comunication with sockets",
+  "main": "server.js",
+  "authors": [
+    "Carlos Linares"
+  ],
+  "license": "private",
+  "keywords": [
+    "NodeJs",
+    "Sockets",
+    "Dashboard"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}

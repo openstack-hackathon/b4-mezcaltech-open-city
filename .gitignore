@@ -1,0 +1,23 @@
+# swap
+*.swp
+*.swo
+*~
+# session
+Session.vim
+node_modules
+jspm_packages
+bower_components
+.idea
+.DS_STORE
+/dist
+build/reports
+coverage
+test/e2e/dist
+#Android
+*.iml
+.gradle
+/android-app/local.properties
+/android-app/.idea/workspace.xml
+/android-app/.idea/libraries
+/android-app/build
+/android-app/captures

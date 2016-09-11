@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CitiSense</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/dist/css/materialize.css">
+
+    <!-- Google Maps style -->
+    <link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css" media="screen" charset="utf-8">
+
+    <!-- dashboard.css -->
+    <link rel="stylesheet" href="css/dashboard.css">
+  </head>
+  <body ng-app="dashboardApp">
+
+    <div class="navbar-fixed">
+     <nav class="purple darken-3">
+       <div class="nav-wrapper">
+         <a href="/dashboard" class="brand-logo center">Operation Center</a>
+         <a data-activates="mobile-demo" class="button-collapse" collapse-menu>
+           <i class="material-icons">
+             <img src="img/menu.svg" class="svg" />
+           </i>
+         </a>
+         <ul class="right hide-on-med-and-down">
+           <li><a href="/dashboard">Incidents Map</a></li>
+         </ul>
+         <ul class="side-nav" id="mobile-demo">
+           <li><a href="/dashboard">Incidents Map</a></li>
+         </ul>
+       </div>
+     </nav>
+    </div>
+
+    <div ng-controller="dashboardCtrl" class="container">
+      <div class="row">
+        <div class="col s12 m3 l3" id="alerts"></div>
+        <div class="col s12 m9 l9">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/materialize/dist/js/materialize.min.js"></script>
+
+    <!-- Google maps -->
+    <script src="js/gmapsClient.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdYZ4FAhs_HgvNWY9UlnLs-0dOHzoKrqs&callback=gmaps.init"></script>
+    <script src="js/cardFactory.js"></script>
+    <script src="js/wsClient.js"></script>
+  </body>
+</html>
